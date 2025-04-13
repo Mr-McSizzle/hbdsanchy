@@ -1,0 +1,63 @@
+/* Global Styles */
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: #FFEFD5; /* Pastel Champagne */
+    color: #4B0082; /* Deep Purple for contrast */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: #FFDAB9; /* Light Pastel Peach */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Card Styles */
+.card {
+    background-color: #FFF8DC; /* Cornsilk */
+    border: 2px dashed #FFD700; /* Champagne Gold */
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    color: #FF69B4; /* Hot Pink */
+}
+
+.card p {
+    font-size: 1em;
+    color: #4B0082; /* Deep Purple */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #008B8B; /* Teal */
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}

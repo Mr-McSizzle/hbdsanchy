@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best's Gifting Checklist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🎉 My Gifts to You! 🎁</h1>
+        <p>A checklist of all the cute things I'm gifting you!</p>
+    </header>
+
+    <main>
+        <div class="card">
+            <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" alt="Lunch GIF">
+            <h2>Lunch</h2>
+            <p>A delightful and tasty lunch, all for you!</p>
+            <label>
+                <input type="checkbox" id="lunch" onclick="toggleChecked('lunch')"> Check Off
+            </label>
+        </div>
+
+        <div class="card">
+            <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="Snacks GIF">
+            <h2>Snacks</h2>
+            <p>Sweet and savory snacks, because you're the best!</p>
+            <label>
+                <input type="checkbox" id="snacks" onclick="toggleChecked('snacks')"> Check Off
+            </label>
+        </div>
+
+        <div class="card">
+            <img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" alt="Dinner GIF">
+            <h2>Dinner</h2>
+            <p>A cozy dinner to end the day perfectly!</p>
+            <label>
+                <input type="checkbox" id="dinner" onclick="toggleChecked('dinner')"> Check Off
+            </label>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
